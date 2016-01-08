@@ -1,0 +1,106 @@
+body {
+	padding: 10px;
+  min-width: 500px;
+}
+div#top {
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+div#actions {
+  text-align: right;
+  vertical-align: top;
+  background-color:#eafafa;
+  margin-bottom: 20px;
+}
+
+div#status {  
+  display:inline-block;
+  text-align: left;
+  vertical-align: top;    
+  background-color:#eafafa;
+  height:315px;
+  width:120px;
+  margin:0;
+}
+
+div#board 
+{
+  text-align: right;
+  display:inline-block;
+  background-color:#eafafa;
+}
+
+ul#playerList {
+  margin:0;
+  padding:0;
+}
+
+ul#playerList li {  
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+ul#playerList li div {
+  font-size: 0.8em;
+  font-style: italic;
+} 
+
+#playerList li.active {
+  font-weight: bold;
+}
+div#log {  
+  text-align: right;
+  vertical-align: top;  
+  font-size: 0.8em;
+}
+
+div#board table {
+}
+
+.square 
+{
+    width: 50px;
+    height: 40px;
+    border: 4px solid #ccc;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -opera-border-radius: 10px;
+    padding: 0px;
+    display: inline-block;
+    margin: 1px;
+    color: black;
+    font: 8px Verdana, Arial, sans-serif;
+}
+.blue
+{ 
+	background: #abc; border-color: #aaa; 
+}
+.bluePlayer {
+  border-right: solid 30px;
+  border-color: #abc;
+}
+.red   
+{ 
+	background: #930; border-color: #f96; 
+}
+.redPlayer {
+  border-right: solid 30px;
+  border-color: #930;
+}
+.white   
+{ 
+	background: #ccc; border-color: #fff; 
+   -webkit-transition: background-color,border-color .1s linear;
+   -moz-transition: background-color,border-color .1s linear;
+   -opera-transition: background-color,border-color .1s linear;
+   transition: background-color,border-color .1s linear;
+}
+.roundedBox
+{            
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #000;
+	padding: 10px;            
+}

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+EXEC_WEBKIT_PATH="/Users/phemmings/Projects/_mine/node-js/node-webkit-v0.10.5-osx-x64"
+$EXEC_WEBKIT_PATH/node-webkit.app/Contents/MacOS/node-webkit .
